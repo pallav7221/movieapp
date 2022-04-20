@@ -1,0 +1,29 @@
+#login-form-div {
+    width: 25%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#login-form-div>form>input {
+    display: flex;
+    line-height: 20px;
+    margin: 4px;
+}
+
+#login-form-div>form>label {
+    margin: 4px;
+}
+
+#button {
+    width: 100%;
+    justify-content: center;
+    background-color: teal;
+    color: white;
+    border-radius: 6px;
+
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: burlywood;
+}

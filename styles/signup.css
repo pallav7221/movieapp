@@ -1,0 +1,42 @@
+#heading {
+    text-align: center;
+}
+
+#signup-form-div>form>input {
+    display: flex;
+    padding: 4px;
+    margin: 4px;
+
+
+}
+
+#signup-form-div>form>label {
+    font-size: 20px;
+    margin: 4px;
+    ;
+}
+
+#signup-form-div>form {
+    width: 25%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#signup_form_div {
+    width: 100%;
+
+}
+
+#button {
+    width: 100%;
+    justify-content: center;
+    background-color: teal;
+    color: white;
+    border-radius: 6px;
+
+}
+
+#button:hover {
+    cursor: pointer;
+    background-color: burlywood;
+}

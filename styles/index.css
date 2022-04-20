@@ -1,0 +1,61 @@
+#navBar {
+    height: 80px;
+    width: 100%;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+
+#navBar>a {
+
+    padding: 20px;
+}
+
+#navBar>a>button {
+    margin: 20px;
+    float: right;
+    background-color: teal;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+#navBar>a>button:hover {
+    cursor: pointer;
+    background-color: black;
+}
+#sort-buttons>select{
+    margin: 20px;
+    width: 150px;
+    text-align: center;
+    padding: 12px;
+    background-color: teal;
+    color: white;
+    font-size: 20px;
+}
+#movies>div>img {
+    width: 200px;
+    height: 250px;
+}
+
+#movies {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+
+}
+.box{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    font-size: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#slideshow>img{
+    display: block;
+    margin: auto;
+    width: 450px;
+    height: 400px;
+}
